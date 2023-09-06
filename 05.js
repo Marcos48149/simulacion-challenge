@@ -15,7 +15,28 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  arr=[];
+ 
+  array.map((key)=>{
+     prop=key[propiedad];
+    arr.push(prop);
+    
+  });
+    
+  return arr;
+    
 }
+  
+ 
+
+
+    
+  
+  
+  
+  
+
+
 
 // No modifiques nada debajo de esta linea //
 
